@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="magic.js"></script>
+  <title>Magic 8 Ball!</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Magic 8-Ball</h1>
+    <p>Enter a question below, then click on the Magic 8-Ball to receive its wisdom!</p>
+    <input type="text" id="questionBox" placeholder="Ask your question..." />
+    <br>
+    <input type="image" src="8ball.png" alt="Magic Ball" id="magicBallButton" onclick="GenerateAnswer()">
+    <div id="outputDiv"></div>
+  </div>
+</body>
+</html>
